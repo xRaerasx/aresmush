@@ -1,5 +1,5 @@
 module AresMUSH
-  class FS3BackgroundSkill < Ohm::Model
+  class FS3MeritSkill < Ohm::Model
     include ObjectModel
     include LearnableAbility
     
@@ -15,6 +15,14 @@ module AresMUSH
         return ""
       when 1
         return "%xg@%xn"
+      when 2
+        return "%xg@@%xn"
+      when 3
+        return "%xg@@%xy@%xn"
+      when 4
+        return "%xg@@%xy@@%xn"
+      when 5
+        return "%xg@@%xy@@%xr@%xn"
       end
     end
     
@@ -24,6 +32,14 @@ module AresMUSH
         return t('fs3skills.unskilled_rating')
       when 1
         return t('fs3skills.everyman_rating')
+      when 2
+        return t('fs3skills.competent_rating')
+      when 3
+        return t('fs3skills.good_rating')
+      when 4
+        return t('fs3skills.great_rating')
+      when 5
+        return t('fs3skills.exceptional_rating')
       end
     end
   end
