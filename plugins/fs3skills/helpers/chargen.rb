@@ -77,8 +77,10 @@ module AresMUSH
       case ability_type
       when :action
         max_rating = Global.read_config("fs3skills", "max_skill_rating")
-      when :background, :language, :advantage
-        max_rating = 4
+      when :advantage
+        max_rating = 5
+	  when :background, :language
+        max_rating = 1
       when :attribute
         max_rating = Global.read_config("fs3skills", "max_attr_rating")
       end
