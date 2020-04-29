@@ -6,7 +6,7 @@ module AresMUSH
       attr_accessor :aspirations
 
       def parse_args
-       self.aspirations = trim_arg(cmd.args)
+       self.asps = trim_arg(cmd.args)
       end
 
       def handle
