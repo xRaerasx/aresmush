@@ -6,11 +6,11 @@ module AresMUSH
       attr_accessor :aspirations
 
       def parse_args
-       self.asps = trim_arg(cmd.args)
+       self.aspirations = trim_arg(cmd.args)
       end
 
       def handle
-        enactor.update(aspirations: self.asps)
+        enactor.update(aspirations: self.aspirations)
         client.emit_success "Aspirations set!"
       end
     end
