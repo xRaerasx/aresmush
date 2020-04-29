@@ -3,7 +3,7 @@ module AresMUSH
     class AspsCmd
       include CommandHandler
       
-      attr_accessor :aspirations
+      attr_accessor :name
 
       def parse_args
         self.name = cmd.args ? titlecase_arg(cmd.args) : enactor_name
