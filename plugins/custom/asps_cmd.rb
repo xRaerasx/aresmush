@@ -3,7 +3,7 @@ module AresMUSH
     class AspsCmd
       include CommandHandler
       
-      attr_accessor :name
+      attr_accessor :aspirations
 
       def parse_args
         self.name = cmd.args ? titlecase_arg(cmd.args) : enactor_name
@@ -17,7 +17,7 @@ module AresMUSH
       
       def handle
         ClassTargetFinder.with_a_character(self.name, client, enactor) do |model|
-          template = BorderedDisplayTemplate.new model.asps, "#{model.name}'s Aspirations"
+          template = BorderedDisplayTemplate.new model.aspirations, "#{model.name}'s Aspirations"
           client.emit template.render
         end
       end
