@@ -16,6 +16,8 @@ module AresMUSH
 	   case cmd.switch
 	 when "set"
 		return SetAspirationsCmd
+	 else
+	    return AspsCmd
 	  end
 	end
       return nil
