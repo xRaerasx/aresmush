@@ -1,6 +1,6 @@
 module AresMUSH
   module Custom
-    class SetGoalsCmd
+    class SetAspirationsCmd
       include CommandHandler
       
       attr_accessor :aspirations
