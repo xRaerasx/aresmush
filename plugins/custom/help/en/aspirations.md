@@ -5,7 +5,7 @@ summary: Character Aspirations.
 # Aspirations
 This command lets you record your character's aspirations.  Aspirations are only visible to yourself and staff, and may be changed at any time.
 
-`asps`` - Show you own aspirations.
+`asps` - Show you own aspirations.
 
 Example: 
 
