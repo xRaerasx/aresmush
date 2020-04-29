@@ -12,10 +12,12 @@ module AresMUSH
  
     def self.get_cmd_handler(client, cmd, enactor)
 	  case cmd.root
-	  when "asps"
-	    case cmd.switch
-		when "set"
-		  return SetAspirationsCmd
+	 when "asps"
+	   case cmd.switch
+	 when "set"
+		return SetAspirationsCmd
+	  end
+	end
       return nil
     end
   end
