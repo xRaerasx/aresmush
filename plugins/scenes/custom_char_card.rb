@@ -3,7 +3,7 @@ module AresMUSH
     
     def self.custom_char_card_fields(char, viewer)
 
-	}
+	{
 		background: char.background
 	}
     
