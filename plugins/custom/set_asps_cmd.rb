@@ -12,6 +12,7 @@ module AresMUSH
       def handle
         enactor.update(aspirations: self.aspirations)
         client.emit_success "Aspirations set!"
+		Website.format_input_for_html(char.aspirations)
       end
     end
   end

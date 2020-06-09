@@ -19,6 +19,7 @@ module AresMUSH
         ClassTargetFinder.with_a_character(self.name, client, enactor) do |model|
           template = BorderedDisplayTemplate.new model.aspirations, "#{model.name}'s Aspirations"
           client.emit template.render
+		Website.format_markdown_for_html(char.aspirations)
         end
       end
     end
