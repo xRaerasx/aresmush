@@ -4,7 +4,7 @@ module AresMUSH
     def self.custom_char_card_fields(char, viewer)
 
 	{
-     background: char.background
+     background: Website.format_input_for_html(char.background)
 	}
     
     end
