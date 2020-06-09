@@ -12,7 +12,7 @@ module AresMUSH
       # Return a hash of custom fields formatted for editing in the profile editor
       # Example: return { goals: Website.format_input_for_html(char.goals) }
       def self.get_fields_for_editing(char, viewer)
-        return {aspirations: Website.format_markdown_for_html(char.aspirations)}
+        return {aspirations: Website.format_input_for_html(char.aspirations)}
       end
 
       # Return a hash of custom fields formatted for editing in chargen
