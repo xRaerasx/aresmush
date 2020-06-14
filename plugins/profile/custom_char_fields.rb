@@ -18,13 +18,14 @@ module AresMUSH
       # Return a hash of custom fields formatted for editing in chargen
       # Example: return { goals: Website.format_input_for_html(char.goals) }
       def self.get_fields_for_chargen(char)
-        return {aspirations: (char.aspirations)}
+        return {aspirations: Website.format_input_for_html(char.aspirations)}
       end
       
       # Custom fields will be in char_data[:custom]
       # Example: char.update(goals: char_data[:custom][:goals])
       def self.save_fields_from_profile_edit(char, char_data)
-        char.update(aspirations: Website.format_markdown_for_html(char_data[:custom][:aspirations]))
+        char.update(aspirations: Website.format_input_for_html(char_data[:custom][:aspirations]))
+		return: []
       end
       
       # Save fields and return an array of any error messages.
