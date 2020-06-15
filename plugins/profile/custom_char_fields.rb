@@ -24,7 +24,7 @@ module AresMUSH
       # Custom fields will be in char_data[:custom]
       # Example: char.update(goals: char_data[:custom][:goals])
       def self.save_fields_from_profile_edit(char, char_data)
-        char.update(aspirations: Website.format_input_for_html(char_data[:custom][:aspirations]))
+        char.update(aspirations: Website.format_markdown_for_html(char_data[:custom][:aspirations]))
       end
       
       # Save fields and return an array of any error messages.
