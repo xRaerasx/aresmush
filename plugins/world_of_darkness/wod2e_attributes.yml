@@ -1,0 +1,28 @@
+   attributes:
+   -
+     name: Intelligence
+	 description: Raw brain power and memory
+   -
+     name: Wits
+	 description: Quickness of thinking, intuition
+   -
+     name: Resolve
+	 description: 
+   -
+     name: Strength
+	 description: Raw physical strength
+   -
+     name: Dexterity
+	 description: Speed and ease of movement and hand-eye coordination
+   -   
+     name: Stamina
+	 description: Physical hardiness including resistance to disease and physical trauma
+   -
+     name: Presence
+	 description: Raw charisma, assertiveness, and ability to command
+   -
+     name: Manipulation
+	 description: Ability to choose words, mask intentions, and sway others to your side
+   -
+     name: Composure
+	 description: Ability to control emotions and resist the manipulation of others

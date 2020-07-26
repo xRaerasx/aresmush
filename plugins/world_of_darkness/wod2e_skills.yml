@@ -1,0 +1,75 @@
+wod2e:
+  skills:
+   -
+     name: Academics
+	 description: General higher education and knowledge of the arts and humanities
+   -
+     name: Computer
+	 description: Ability to use computers beyond basic functionality
+   -
+     name: Crafts
+	 description: Knowledge of repairing, designing, and creating things
+   -
+     name: Investigation
+	 description: Ability to find and put together clues and solve mysteries and puzzles
+   -
+     name: Medicine
+	 description: Practical and Applicable knowledge of the human body and medical techniques used to keep it healthy. 
+   -   
+     name: Occult
+	 description: Knowledge of myth, folktales, and urban legends. Ability to separate the myth from the truth
+   -
+     name: Politics
+	 description: Knowledge of political bodies, figures, and issues
+   -
+     name: Science
+	 description: Understanding of natural and physical sciences
+   -
+     name: Athletics
+	 description: Represents all athletic spheres as well as determines defense and thrown weapon ability
+   -
+     name: Brawl
+	 description: Represents skill in fighting with your fists
+   -
+     name: Drive
+	 description: Ability to maneuver and control a vehicle beyond the basic functions.
+   -
+     name: Firearms
+	 description: Ability to fire, maintain, and identify firearms
+   -
+     name: Larceny
+	 description: Represents ability to do illegal activities such as B&E, Lockpicking, pickpocketting, etc
+   -
+     name: Stealth
+	 description: Ability to stay hidden, unseen, and unheard
+   -
+     name: Survival
+	 description: Ability to live off the land
+   -
+     name: Weaponry
+	 description: Ability to fight with and identify hand to hand weapons
+   -
+     name: Animal Ken
+	 description: Understanding of animal behavior
+   -
+     name: Empathy
+	 description: Ability to read and understand others' feelings and motivations
+   -
+     name: Expression
+	 description: Ability to communicate thoughts and emotions
+   -
+     name: Intimidation 
+	 description: Ability to se fear to convince others to do what you want
+   -
+     name: Persuasion
+	 description: Ability to use influence, charm, and careful arguments to change minds and influence behavior
+   -
+     name: Socialize
+	 description: Art of small talk, politce gestures, and fitting in
+   -
+     name: Streetwise
+	 description: Understanding of life on the streets, ability to survive and thrive by its rules
+   -
+     name: Subterfuge
+	 description: Ability to deceive others
+
