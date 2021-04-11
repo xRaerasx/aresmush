@@ -9,7 +9,9 @@ module AresMUSH
       end
       
       def handle
-        client.emit_success "Done!"
+       scene = Scene.all.select { |s| PlotLink.find_by_scene(s).empty? && s.shared }
+       scene.edit(plot: "14")
+       client.emit "Done!"
       end
 
     end
